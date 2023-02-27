@@ -1,0 +1,61 @@
+/**************** our services section start ***********************/
+.section-services{
+    transform: all 0.7s linear;
+}
+.section-services p {
+    max-width: 60rem;
+}
+.section-services .grid{
+    margin-top: 5rem;
+    row-gap: 10rem;
+}
+.service-box{
+    text-align: center;
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+    padding: 2.4rem 1.4rem;
+    transition: all 0.2s linear;
+}
+.service-box:hover, .service-box:active{
+    transform: translateY(-3rem);
+}
+.service-icon{
+    width: 3rem;
+    height: 3rem;   
+    background-color:var(--icons-bg);
+    display: inline-block;
+    border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+    padding: 1.4rem 1.8rem;
+    position: relative;
+    color: var(--heading);
+    animation: water-wave 3s linear infinite;
+}
+.service-icon::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    border-radius:  56% 44% 70% 30% / 30% 54% 46% 70%;
+    background: transparent;
+    border: 1px solid var(--black);
+    animation: water-wave 3s linear infinite;
+}
+@keyframes water-wave{
+    0%{
+        border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+    }
+    50%{
+        border-radius: 3% 97% 15% 85% / 72% 0% 100% 28%;
+    }
+    100%{
+        border-radius:  56% 44% 70% 30% / 30% 54% 46% 70%;
+    }
+}
+.service-box h3{
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}

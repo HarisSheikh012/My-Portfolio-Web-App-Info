@@ -1,0 +1,176 @@
+
+/*-------------Hero Section Start----------------*/
+.section-hero {
+    background-color: var(--bg);
+}
+
+.section-hero-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-top-data {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--helper);
+}
+
+.hero-heading {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.hero-para {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 115rem;
+}
+
+.section-hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img {
+    max-width: 100%;
+}
+
+/*-------------Bio Section Start----------------*/
+.bio-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bio-image img{
+    width: 80%;
+    box-shadow: -2rem -2rem 0 0 var(--helper);
+    display: inline-block;
+}
+.bio-data{
+    max-height: 60%;
+}
+.bio-para{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+.bio-data-stats{
+    display: flex;
+    padding: 2rem 0;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+.bio-progress-bar{
+    width: 70%;
+    height: 0.6rem;
+    background-color: var(--para-tint);
+    border-radius: 10rem;
+    box-sizing: var(--shadow);
+    position: relative;
+}
+.bio-stats h3{
+    margin-bottom: 0.1rem;
+    font-size: 1.3rem;
+}
+.bio-progress-bar::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: inherit;
+    background: var(--gradientSupport);
+    border-radius: 10rem;
+}
+.bio-progress-2::before{
+    width: 90%;
+}
+.bio-progress-3::before{
+    width: 75%;
+}
+.bio-progress-4::before{
+    width: 70%;
+}
+.bio-progress-5::before{
+    width: 75%;
+}
+.bio-progress-6::before{
+    width: 65%;
+}
+.bio-progress-7::before{
+    width: 60%;
+}
+.bio-progress-8::before{
+    width: 75%;
+}
+.bio-progress-9::before{
+    width: 60%;
+}
+.bio-progress-10::before{
+    width: 50%;
+}
+.bio-progress-11::before{
+    width: 55%;
+}
+.bio-progress-12::before{
+    width: 65%;
+}
+.bio-progress-13::before{
+    width: 45%;
+}
+.bio-progress-bar span{
+    position: absolute;
+    top: 1.8rem;
+    width: 4rem;
+    height: 2rem;
+    background: var(--helper);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: 0;
+}
+.bio-progress-bar span {
+    left:54%
+}
+.bio-progress-2 span {
+    left:84%
+}
+.bio-progress-3 span {
+    left:69%
+}
+.bio-progress-4 span {
+    left:64%
+}
+.bio-progress-5 span {
+    left:69%
+}
+.bio-progress-6 span {
+    left:59%
+}
+.bio-progress-7 span {
+    left:54%
+}
+.bio-progress-8 span {
+    left:69%
+}
+.bio-progress-9 span {
+    left:54%
+}
+.bio-progress-10 span {
+    left:44%
+}
+.bio-progress-11 span {
+    left:48%
+}
+.bio-progress-12 span {
+    left:59%
+}
+.bio-progress-13 span {
+    left:39%
+}
